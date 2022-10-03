@@ -15,7 +15,7 @@
 		<ApplicationTitle>MauiAppCenter</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.mauiappcenter</ApplicationId>
+		<ApplicationId>no.anesheim.mauiappcenter</ApplicationId>
 		<ApplicationIdGuid>487BBBFB-70B2-4F9B-8674-D4BF20513207</ApplicationIdGuid>
 
 		<!-- Versions -->
