@@ -17,7 +17,10 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
-		AppCenter.Start("android=c86d8086-5d05-4934-92ec-983860f15d13", typeof(Analytics), typeof(Crashes));
+		AppCenter.Start(
+			"android=c86d8086-5d05-4934-92ec-983860f15d13;" +
+            "ios=80387b76-f8b5-474f-8c1f-6bfd47639b09", 
+			typeof(Analytics), typeof(Crashes));
 
 		return builder.Build();
 	}
